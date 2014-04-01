@@ -1049,11 +1049,12 @@ span.expand, span.collapse {
   top: 0;
   left: 0;
   z-index: 1000;
-  background: rgba(83,205,236, 0.96);
+  background: rgba(194,210,220, 0.95);
+  overflow: auto;
   .form-title {
     display: none;
     font-size: 1.4em;
-    margin: 0 0 0.7em 0;
+    margin: 0 0 0.7em 10px;
     @media only screen and (min-width: 40.063em) {
       display: block;
     }
@@ -1066,13 +1067,13 @@ span.expand, span.collapse {
 .overlay .overlay-close {
   width: 40px;
   height: 40px;
-  border: 10px solid @navy;
+  border: 10px solid @red;
   border-radius: 200px;
   position: absolute;
   right: 20px;
   top: 20px;
   overflow: hidden;
-  background: @navy url(../images/cross.png) no-repeat center center;
+  background: @red url(../images/cross.png) no-repeat center center;
   text-indent: 200%;
   color: transparent;
   outline: none;
