@@ -131,6 +131,18 @@ figure {
   text-align: center;
   transition: @anime;
   text-transform: uppercase;
+  &.two-up {
+    padding: 1em 5%;
+    float: left;
+    &:first-child {
+      width: 49%;
+      margin-right: 1%;
+    }
+    &:last-child {
+      width: 49%;
+      margin-left: 1%;
+    }
+  }
   &.small {
     padding: 0.4em 0.8em;
     width: auto;
