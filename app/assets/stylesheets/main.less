@@ -232,9 +232,10 @@ nav.tab-bar {
   .middle {
     text-align: center;
     .typesafe-link {
-      height: 60px;
-      line-height: 60px;
+      height: 30px;
+      line-height: 30px;
       width: 30px;
+      margin-top: 15px;
       text-align: center;
       display: none;
       @media only screen and (min-width: 40.063em) {
@@ -409,6 +410,7 @@ ul.off-canvas-list {
         vertical-align:top;
         padding: 0;
         &.bold-radius {
+          padding-top: 5px;
         }
         .ts-logo {
           width: 130px;
@@ -1023,10 +1025,18 @@ span.expand, span.collapse {
         height: 60px;
         left: 50%;
         top: 50%;
-        border: 2px solid @white-ltr;
         margin: -30px 0 0 -30px;
         border-radius: 200px;
         line-height: 56px;
+        padding: 0;
+
+        .typesafe-icon {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          left: -1px;
+          top: -1px;
+        }
     }
 
     @media only screen and (min-width: 40.063em) {
