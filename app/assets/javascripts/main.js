@@ -83,7 +83,7 @@ if ( typeof define === 'function' && define.amd ) {
 (function() {
   var triggerBttn = document.getElementById( 'trigger-overlay' ),
 		actOnForm = $('#acton-form'),
-    actOnIframe = '<iframe id="act-on-form" src="http://info.typesafe.com/CONT-20XX-Partner-Contact-Us_Form-LP.html?lst=CONT-20XX-General-Contact-Us&lsd=GT" width="100%" height="500px" scrolling="no" frameborder="0" seamless></iframe>',
+    actOnIframe = '<iframe id="act-on-form" src="http://info.typesafe.com/CONT-20XX-General-Contact-Us_FORM-LP.html?lst=GT&lsd=CONT-20XX-General-Contact-Us" width="100%" height="700px" scrolling="no" frameborder="0" seamless></iframe>',
     overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
 		transEndEventNames = {
